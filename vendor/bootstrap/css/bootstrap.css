@@ -2421,14 +2421,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #911728;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #570000;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2455,7 +2453,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
+  background-color: #911728;
   border-color: #6c757d;
 }
 
@@ -2905,7 +2903,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
-  color: #212529;
+  color: #911728;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
@@ -4610,6 +4608,7 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+	color: #911728;
 }
 
 .card-header:first-child {
@@ -5059,7 +5058,7 @@ a.badge-danger:focus, a.badge-danger.focus {
 }
 
 a.badge-light:hover, a.badge-light:focus {
-  color: #212529;
+  color: #911728 !important;
   background-color: #dae0e5;
 }
 
@@ -6578,7 +6577,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #911728 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -8017,6 +8016,7 @@ button.bg-dark:focus {
 .mt-4,
 .my-4 {
   margin-top: 1.5rem !important;
+	color: #911728;
 }
 
 .mr-4,
