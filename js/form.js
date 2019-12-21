@@ -25,7 +25,7 @@ function sendEmail() {
     " " +
     Request.surname +
     "&body=" +
-    "Vielen Dank for Deine Fotoshooting Anfrage" +
+    "Vielen Dank für deine Nachricht." +
     " " +
     Request.surname +
     "%0D%0A" +
