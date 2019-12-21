@@ -1,7 +1,4 @@
 /* CSS Document */
-.breadcrumb-link, p > a, .card-title > a {
-  color: #911728 !important; }
-
 h3 {
   color: #911728; }
 
@@ -16,3 +13,8 @@ h3 {
   border-radius: 5px;
   margin: 10px;
   box-shadow: 5px 5px 10px #C3C3C3; }
+
+.card-body p {
+  color: black; }
+.card-body h4 {
+  color: #911728; }

@@ -1,10 +1,12 @@
 /* CSS Document */
 
-.breadcrumb-link, p>a, .card-title>a
-	color: #911728 !important
+$dark-red: #911728
+
+%sub-title
+	color: $dark-red
 
 h3
-	color: #911728
+	@extend %sub-title
 
 /* -- Gallyery --
 
@@ -19,3 +21,9 @@ h3
 	margin: 10px
 
 	box-shadow: 5px 5px 10px #C3C3C3
+
+.card-body
+	p
+		color: black
+	h4
+		color: $dark-red

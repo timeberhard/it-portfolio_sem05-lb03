@@ -20,3 +20,7 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.breadcrumb-link, p>a, .card-title>a {
+	color: #911728 !important;
+}
